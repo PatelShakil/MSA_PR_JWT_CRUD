@@ -1,0 +1,10 @@
+com\shakilpatel\msaresource\service\ExampleService.class
+entity\User.class
+ejb\UserBean.class
+com\shakilpatel\msaresource\service\package-info.class
+com\shakilpatel\msaresource\service\HealthCheckService.class
+com\shakilpatel\msaresource\config\Producers.class
+service\UserService.class
+com\shakilpatel\msaresource\config\CrossOriginResourceSharingFilter.class
+com\shakilpatel\msaresource\config\BootStrap.class
+ejb\UserBeanLocal.class

@@ -1,0 +1,9 @@
+com\shakilpatel\msaclient\config\CrossOriginResourceSharingFilter.class
+servlet\MSAServlet.class
+client\UserClient.class
+com\shakilpatel\msaclient\service\ExampleService.class
+com\shakilpatel\msaclient\config\BootStrap.class
+model\User.class
+com\shakilpatel\msaclient\config\Producers.class
+com\shakilpatel\msaclient\service\HealthCheckService.class
+com\shakilpatel\msaclient\service\package-info.class

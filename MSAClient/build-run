@@ -1,0 +1,5 @@
+#!/bin/sh
+mvn clean package
+docker build -t PatelShakil/MSAClient .
+docker rm -f MSAClient 2>/dev/null || true
+docker run -it --name MSAClient -p 8080:8080 --name MSAClient PatelShakil/MSAClient

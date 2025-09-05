@@ -1,0 +1,5 @@
+#!/bin/sh
+mvn clean package
+docker build -t PatelShakil/MSAResource .
+docker rm -f MSAResource 2>/dev/null || true
+docker run -it --name MSAResource -p 8080:8080 --name MSAResource PatelShakil/MSAResource
